@@ -1,0 +1,123 @@
+img{
+    width: 100%;
+}
+
+body{
+    position: relative;
+    width: 100%; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-position: center;
+    background-size: cover;
+}
+
+body .--north{
+    background-image: url("../images/north/com.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-position: center;
+    background-size: cover;
+}
+
+body .--south{
+    background-image: url("../images/south/bánh khọt.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-position: center;
+    background-size: cover;
+}
+
+body .--central{
+    background-image: url("../images/central/myquang.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-position: center;
+    background-size: cover;
+}
+
+.layout{
+    margin: auto;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100%;
+    color: white;
+    /* padding: 100px 0; */
+}
+
+.layout h2{
+    margin-bottom: 20px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 1s;
+}
+
+.layout .description .content{
+    line-height: 1.2;
+    margin: 30px 35px;
+    font-weight: normal;
+    text-transform: none;
+    font-size: 20px;
+    margin: 30px 130px;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.layout .description .content:nth-child(3){
+    transition: all 2s !important;
+}
+
+.layout .description{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.layout .description .content p{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 2s;
+}
+
+.layout .description .content b{
+    font-weight: bold;
+}
+
+.layout .session{
+    padding: 70px 100px;
+}
+
+.layout .session .title{
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 20px;
+    transform: translateY(100px);
+    transition: all 1s;
+    opacity: 0;
+}
+
+.layout .session .content{
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.2;
+    font-size: 17px;
+    margin: 10px 20px;
+    transform: translateY(100px);
+    transition: all 1.5s;
+    opacity: 0;
+}
+
+.layout .session .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    transform: translateY(100px);
+    transition: all 2s;
+    opacity: 0;
+}
+
+
